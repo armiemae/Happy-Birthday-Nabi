@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crush</title>
+    <link rel="stylesheet" type="text/css" href="crush.css">
+</head>
+<body>
+    
+    <audio controls="controls">
+        <source class="audio" src="FLOWER .mp3" type="audio/mpeg" />
+    </audio>
+    
+    <div class="container">
+        <div class="row">
+            <div class="picture">
+                <img class="img-nabi" src="nabi.jpg" alt="">
+                <h1 class="message">Hello Nicolet ^_^! </h1> 
+                 <p> Kindness is a rare and valuable gift in today's world. Thank you for always being there for me. </p>
+            </div>
+        </div>
+    </div>
+    
+    <a onclick="pop()" class="btn">Click Me</a>
+
+    <div id="box">
+
+        <span class="alert-circle-outline"></span>        
+        <p class="message">Hello Nicole, first of all hindi ko alam kung bakit may pa-website pa ako sayo. Anyway super simple lang itong ginawa ko pero 
+            <br>sana nagustuhan mo kasi ilang oras ko to ginawa hehehe. Happy happy birthday to you, I hope na nag enjoy ka sa kaarawan mo 
+            <br>today. Thank you sayo and sa lahat ng QNK members kasi you guys make me happy, kayo yung isa sa pinaka the best thing na 
+            <br>nangyari sa buhay ko. Kahit hindi pa tayo nagme-meet in person super magka-vibes na tayo, tapos super kalog mo and super 
+            <br>friendly din kaya talagang bardagulan tayo minsan. Thankful ako sayo kasi kahit super kulit ko sayo and minsan naiinis ka na 
+            <br>sakin andiyan ka pa rin para sakin through up and down. Sorry sa pang iinis ko sayo (pero ikaw naman kasi nauuna eh charot 
+            <br>hahaha), sorry rin sa mga bagay na hindi mo nagustuhan, hindi ko alam na sumosobra na pala ako. Minsan kasi akala ko okay 
+            <br>lang pero hindi na pala, okay lang na pagalitan mo ko kaya ko naman tumaggap ng pag kakamali hindi naman ako magagalit. 
+            <br>paano ba yan see you soon mag celebrate ulit tayo ng birthday mo pag andito ka na sa pinas. Ingat ka palagi and drive safe
+             <br> HAPPY BIRTHDAY AND GOD BLESS. 
+             <br> <br>
+            Trust me; you don't need anything else to become beautiful, so don't change who you are. 
+            <br>Your goodness and honesty make you wonderful. </p>
+
+        <a onclick="pop()" class="close">close</a>
+    </div>
+    <script type="text/javascript">
+        var c = 0;
+        function pop(){
+            if(c == 0){
+                document.getElementById("box").style.display = "block";
+                c = 1;
+            }else{
+                document.getElementById("box").style.display = "none";
+                c = 0;
+            }
+        }
+    </script>
+
+</body>
+</html> 

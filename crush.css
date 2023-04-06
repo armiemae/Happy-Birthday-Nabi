@@ -1,0 +1,89 @@
+body{
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);  
+}
+
+.img-nabi{
+    width: 400px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    border-radius: 15px;
+    border-style: groove;
+}
+
+h1{
+    position: absolute;
+    font-size: 3vw;
+    color: #b700ff;
+    -webkit-text-stroke: 0.1vw #610c78;
+    top: 25%;
+    width: 110%;
+    text-align: center;
+    text-shadow: 5px 5px 10px #f8ceec;
+}
+p{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    top: 34%;
+    width: 140%;
+    text-align: center;
+    text-shadow: 5px 5px 10px #f6f6f6;
+}
+
+@import url(https://ionic.io/ionicons);
+
+.btn{
+    position: absolute;
+    top: 45%;
+    left: 49%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(189, 161, 190);
+    transform: translate(-50%, -50%);
+    background: #f8ceec;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    cursor: pointer
+}
+
+#box{
+    width: 400px;
+    overflow: hidden;
+    background: linear-gradient(315deg, #fbe8f6 20%, #cdc4e2 74%);  
+    box-shadow: 0 0 20px rgb(109, 153, 230);
+    border-radius: 8px;
+    position: absolute;
+    top: 73%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 170px;
+    display: none;
+}
+
+#box p{
+    font-size: 14px;
+    top: 2%;
+    left: 2%;
+    text-align: start;
+    color: #333;
+    
+}
+.close{
+    font-size: 18px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: white ;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #3498db;
+    border-radius: 4px;
+}
+audio{
+    position: absolute;
+    top: 65%;
+    left: 20%;
+}
